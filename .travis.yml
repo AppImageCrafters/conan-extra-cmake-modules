@@ -2,7 +2,7 @@
 env:
   global:
     - CONAN_REFERENCE: "extra-cmake-modules/5.57.0"
-    - CONAN_USERNAME: "azubieta"
+    - CONAN_USERNAME: "appimage-conan-community"
     - CONAN_LOGIN_USERNAME: "azubieta"
     - CONAN_CHANNEL: "stable"
     - CONAN_UPLOAD: "https://api.bintray.com/conan/appimage-conan-community/public-conan"
@@ -15,7 +15,7 @@ linux: &linux
   python: "3.6"
   services:
     - docker
-    -
+
 matrix:
   include:
 
