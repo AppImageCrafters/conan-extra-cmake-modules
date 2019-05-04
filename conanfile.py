@@ -10,8 +10,6 @@ class ExtracmakemodulesConan(ConanFile):
     description = "Extra modules and scripts for CMake"
     topics = ("cmake", "ecm", "kde")
     settings = "os", "compiler", "build_type", "arch"
-    # options = {"shared": [True, False]}
-    # default_options = "shared=False"
     build_requires = "cmake_installer/3.10.0@conan/stable"
 
     def source(self):
